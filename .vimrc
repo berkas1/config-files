@@ -21,3 +21,12 @@ if has("autocmd")
   
   autocmd BufNewFile,BufRead *.rss setfiletype xml
 endif
+
+" Plugins (vimplug)
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-surround'
+Plug 'chun-yang/auto-pairs'
+
+call plug#end()
